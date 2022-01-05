@@ -1,9 +1,13 @@
+import { PrimaryButton, SecondaryButton } from './components/Button';
+import Counter from './components/Counter';
 import './index.css';
 
 function App() {
 	return (
-		<div className="App">
-			<h1 className="text-center font-bold text-5xl text-blue-600 mt-8">Learn React</h1>
+		<div className="App m-8">
+			<Counter />
+			<PrimaryButton />
+			<SecondaryButton />
 		</div>
 	);
 }
